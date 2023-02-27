@@ -1,0 +1,29 @@
+.feature-2-h2{
+    text-transform: uppercase;
+    color: #049EB8;
+}
+.feature-2-caption{
+    font-weight: 300;
+    color:#000000;
+}
+.feature-2-icons {
+    font-size: 25px;
+    color: #049EB8;
+}
+.feature-2-h5 {
+    font-weight: 300;
+    color: #04abc8;
+}
+.feature-2-p{
+    font-weight: 300;
+    color: #000000;
+}
+.feature-2-btn{
+    background: #049EB8;
+    border-radius: 31px;
+    color: #FFFFFF;
+} 
+
+.feature-2-section{
+background-color: white;
+}

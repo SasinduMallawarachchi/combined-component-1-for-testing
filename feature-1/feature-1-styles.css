@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "GilroyExtraBold";
+    src: url("fonts/Gilroy-ExtraBold.otf");
+}
+.h2-feature-1 {
+    font-family: "GilroyExtraBold";
+    color: #212d63;
+    /* font-size: 36px;  */
+     /* margin-top: 4%;  */
+    /* margin-bottom: 3%; */
+}
+.img-feature-1{
+  width:400px ;
+  height:400px ;
+}
+.h4-feature-1 {
+  /* font-size: 28px !important; */
+  font-family: "Poppins", cursive !important;
+  color: #000000;
+  font-weight: 390;
+   margin-bottom: 3% !important;
+   margin-top: 3% !important;
+
+}
+.fas-icon-feature-1{
+ color: #212d63;
+}
+.link-feature-1{
+  /* font-size: 20px !important; */
+  font-family: "Poppins", cursive !important;
+  color: #132C85;
+  margin-left: 1.5%;
+}
+.p-feature-1 {
+  /* font-size: 18px !important; */
+  font-family: "Poppins", cursive !important;
+  color: #000000;
+  margin-left: 5%;
+}
+.btn-feature-1 {
+  /* font-size: 16px !important; */
+  font-family: "Poppins", cursive !important;
+  background-color: #212d63 !important;
+  border-radius: 17px !important;
+  margin-left: 5%;
+  border: none;
+  color: #fff;
+  margin-top: 3%;
+  padding-top: 0.7rem !important;
+  padding-right: 2.1rem !important;
+  padding-bottom: 0.7rem !important;
+  padding-left: 2.1rem !important;
+}
+.container-feature-1{
+  background-color: white !important;
+}
+/* media query */
+ /* <for tablet/mobile> */
+  @media(max-width:991px){
+  .link-feature-1  {
+    margin-left:0%;
+  }
+  .p-feature-1{
+    margin-left:0%;
+  } 
+  .btn-feature-1 {
+     margin-left:0%;
+  }
+  /* .h3-feature-1 {
+   font-size: 18px !important;
+  } */
+  }
+
+/* <large desktop> */
+@media(min-width:1395px){
+  .h4-feature-1 {
+   padding-bottom:3%;
+ }
+ .p-feature-1 {
+  margin-bottom: 5%;
+ }
+  .btn-feature-1 {
+     margin-top: 2%;
+  }
+
+}
+
+/* <for tablet> */
+ /* @media(min-width: 768px) and (max-width: 1023px) {
+  .h2-feature-1 {
+    font-size: 30px !important;
+  }
+  .h3-feature-1 {
+    font-size:24px !important; 
+  }
+  .link-feature-1  {
+     margin-left:0%;
+     font-size: 18px !important;
+  }
+  .p-feature-1{
+    margin-left:0%;
+    font-size: 16px !important;
+  } 
+  .btn-feature-1 {
+     margin-left:0%;
+     margin-top: 2%;
+  }
+}
+   <for mobile> 
+   @media(max-width:767px){
+    .h2-feature-1 {
+    font-size: 22px !important;
+ }
+  .h3-feature-1 {
+    font-size:18px !important; 
+    margin-bottom: 5%;
+ }
+ .link-feature-1  {
+     margin-left:0%;
+     font-size: 16px !important;
+  }
+  .p-feature-1{
+    margin-left:0%;
+    font-size: 16px !important;
+  }
+ .btn-feature-1 {
+     margin-left:0%;
+  }
+  } */
+
+ 
+  
+  

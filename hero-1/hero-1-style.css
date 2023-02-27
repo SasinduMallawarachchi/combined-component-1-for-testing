@@ -1,0 +1,74 @@
+/* Colors and Typography */
+body {
+    --hero-1-primary-color: #000000;
+    --hero-1-secondary-color: #FFFFFF;
+}
+
+h1 {
+    color: var(--hero-1-primary-color);
+}
+
+/* Email input */
+.hero-1-input-group {
+    margin-top: 4.5rem;
+}
+
+.hero-1-invalid-email-txt {
+    margin-top: 4px;
+    font-size: 0.875em;
+    visibility: hidden;
+}
+
+.hero-1-invalid-email-active {
+    visibility: visible;
+}
+
+.hero-1-section{
+    background-color: white;
+}
+
+/* Get started btn */
+.hero-1-get-started-btn,
+.hero-1-email-input {
+    border: 2.5px solid var(--hero-1-primary-color);
+    border-radius: 15px;
+}
+
+/* Overwrite bootstrap button styles */
+.hero-1-get-started-btn,
+.hero-1-get-started-btn:hover {
+    background: var(--hero-1-primary-color);
+    color: var(--hero-1-secondary-color);
+}
+
+@media all and (max-width: 438px) {
+    .hero-1-input-group {
+        margin: 3rem auto;
+    }
+
+}
+
+@media all and (max-width: 320px) {
+    .hero-1-btn-arrow-right {
+        display: none;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .hero-1-input-group {
+        margin-top: 0; /* overwrite desktop version */
+        margin: 3rem auto;
+    }
+
+}
+
+/* CTA btn right arrow hover effect */
+@media all and (min-width: 1024px) {
+    .hero-1-btn-arrow-right {
+        transition-duration: 500ms;
+    }
+
+    .hero-1-get-started-btn:hover .hero-1-btn-arrow-right {
+        transform: translate(5px);
+    }
+}

@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "GilroyExtraBold";
+    src: url("fonts/Gilroy-ExtraBold.otf");
+}
+.container-header-3 {
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    padding: 0% !important;
+}
+.nav-three {
+    box-shadow: none !important;
+    background-color: #ffffff !important;
+    position: relative;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.p-header-3{
+    color: #000000;
+    padding-right: 2rem !important;
+    padding-bottom: 0% !important;
+    margin-bottom: 0% !important;
+    transition: transform 0.5s;
+}
+.p-header-3:hover{
+    transform: scale(1.05);
+}
+.nav-three li {
+    list-style: none !important;
+}
+.dropdown-toggle-3:after {
+    display: none !important;
+}
+
+/* Image upload CSS */
+.navbar-brand3 {
+    width: 100px;
+    height: 45px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.navbar-brand3:hover{  
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+
+.icon-style-h3 {
+    font-size: 2.5rem !important;
+    border-radius: 100% !important;
+    line-height: 10px !important;
+    text-align: center !important;
+    color: #FFFFFF !important;
+    background-color: #212D63 !important;
+    font-family: 'Gilroy SemiBold', sans-serif !important;
+}
+.fas-h-3:hover{
+   color:rgb(159, 159, 162) !important;
+}
+.toggler-icon-style-h3{
+    font-size: 2.1rem !important;
+    text-align: center !important;
+    color: #6e6c6c !important;
+}
+
+
+@media(max-width:991px){
+.p-header-3{
+     margin-bottom: 0% !important;
+}
+.icon-center-h3{
+    display: flex !important;
+    justify-content: center !important;
+}
+.p-header-3:hover{
+   transform: scale(1);
+   color:#dc1111 !important;
+}
+.icon-style-h3 {
+    margin-left: auto;
+    font-size: 2.3rem !important;
+    border-width: 0rem !important;
+    color: #514f4f !important;
+    background-color: #ffffff !important;
+    border-radius: 100% !important;
+    line-height: 10px !important;
+    size: 2rem !important;
+}
+.nav-three{
+padding-bottom: 12px;
+    padding-top: 12px;
+}
+}
+
+

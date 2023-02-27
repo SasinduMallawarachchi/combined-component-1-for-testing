@@ -1,0 +1,1907 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Combined Components</title>
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <!-- Swiper-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!-- Global style sheet-->
+    <link href="./global-styles.css" rel="stylesheet" />
+    <!-- Custom Style Sheets-->
+    <link href="./hero-1/hero-1-style.css" rel="stylesheet" />
+    <link href="./feature-1/feature-1-styles.css" rel="stylesheet" />
+    <link href="./hero-2/hero-2-css/hero-2-style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./feature-3/feature-3-styles/feature-3-styles.css"/>
+    <link rel="stylesheet" href="./feature-2/feature-2-css/feature-2-css.css"/>
+    <link rel="stylesheet" href="./gallery-1/img-slider-1-style.css" />
+    <link rel="stylesheet" href="./gallery-3/gallery-3-styles.css" />
+    <link rel="stylesheet" href="./gallery-2/gallery-2-styles.css" />
+    <link rel="stylesheet" href="./testimonial-2/testimonial-2-css/testimonial-2-style.css"/>
+    <link rel="stylesheet" href="./testimonial-1/testamonial-1-styles/testamonial-1-styles.css" />
+    <link rel="stylesheet" href="./testimonial-3/testimonial-3-styles/testamonial-3-styles.css">
+    <link rel="stylesheet" href="./hero-3/hero-3-syles.css" />
+    <link rel="stylesheet" href="./footer-3/footer-3-styles.css" />
+    <link rel="stylesheet" href="./footer-1/footer-1-styles/footer-1-styles.css" />
+    <link rel="stylesheet" href="./footer-2/footer-2-styles/footer-2.css" />
+    <link rel="stylesheet" href="./header-1/header-1-styles.css" />
+    <link rel="stylesheet" href="./header-2/header-2-styles.css" />
+    <link rel="stylesheet" href="./header-3/header-3-styles.css" />
+   
+  </head>
+  <body>
+    <!-- Header 1 Component Start [Rashmi]-->
+    <section class="container-header-1 ">
+      <div class="container-sm">
+     <!-- Navbar start-->
+      <nav  class="navbar navbar-expand-lg navbar-light bg-light nav-one">
+  
+     <!-- Navbar logo -->
+         <div  id="headerOne_LogoDiv" onclick="">
+         <img id="headerOne_SubLogoImage" class="navbar-brand1 img-fluid"  src="./header-1/header-1-images/logo-design-01.png" alt="Image">
+         </div>
+     
+ 
+     <!-- Toggle button mobile view start-->
+         <span id="headerOne_Button_2"  class=" btn-lg btn-floating icon-style-h1 d-block d-lg-none"
+             ><i class="fas fas-h-1 fa-user-circle"></i>
+         </span>
+         <button
+                 class="navbar-toggler navbar-toggler1 toggler-icon-style-h1"
+                 type="button"
+                 data-mdb-toggle="collapse"
+                 data-mdb-target="#headerOne_ColSpaceDiv"
+                 aria-controls="headerOne_ColSpaceDiv"
+                 aria-expanded="false"
+                 aria-label="Toggle navigation"
+         >
+            <i class="fas fa-bars"></i>
+         </button>
+        <!-- Toggle button mobile view end-->
+ 
+     <!-- left links start-->
+         <div class="collapse navbar-collapse navbar-collapse1" id="headerOne_ColSpaceDiv">    
+         <div class="navbar-nav ms-auto me-3 mb-2 mb-lg-0" id="headerOne_UnOderList_1">
+             
+     <!-- dropdown link -->
+         <li class="nav-item dropdown">
+           <a
+             class="nav-link nav-link1 dropdown-toggle-1"
+             href="#"
+             id="navbarDropdown"
+             role="button"
+             data-mdb-toggle="dropdown"
+             aria-haspopup="true" 
+             aria-expanded="true">
+             <p class="p-header-1 pt-4 pt-lg-0">Templates <i class="fas fa-angle-down"></i>&nbsp;</p>
+       
+           </a>
+           
+         <!-- Dropdown menu -->
+           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+             <li>
+               <a class="dropdown-item dropdown-item" href="#"><p class="p-header-1">Action</p></a>
+             </li>
+             <li>
+               <a class="dropdown-item" href="#"><p class="p-header-1">Another action</p></a>
+             </li>
+             <li><hr class="dropdown-divider" /></li>
+             <li>
+               <a class="dropdown-item" href="#"><p class="p-header-1">Something else here</p></a>
+             </li>
+           </ul>
+         </li>
+          
+         <!-- <blog> -->
+             <li id="headerOne_NavLink_2 " class="nav-item " onclick="">
+               <a id="headerOne_SubNavLink_2" class="nav-link nav-link1 nav-one-link active " aria-current="page" href="#" ><p class="p-header-1">Blog</p></a>
+             </li>
+ 
+         <!-- <pricing> -->
+             <li id="headerOne_NavLink_3 " class="nav-item" onclick="">
+               <a id="headerOne_SubNavLink_3" class="nav-link nav-link1 nav-one-link active" href="#" ><p class="p-header-1">Pricing</p></a>
+             </li>
+ 
+         <!-- button -->
+             <li >
+                <div class="col-sm-12 d-flex justify-content-center">
+                     <button id="headerOne_Button_1" href="#"  type="button" class="btn btn-primary  btn-style-h1 ">
+                     Start Free</button>   
+                </div>    
+             </li>
+       
+         <!-- icon -->
+             <li class="icon-center-h1" onclick="" >
+                 <span id="headerOne_Button_2"  class=" btn-lg btn-floating icon-style-h1 d-none d-lg-block"
+                     ><i class="fas fas-h-1 fa-user-circle"></i>
+                 </span>
+             </li>
+ 
+         </div>
+       </div>
+     <!-- left links end-->
+ 
+ </nav>
+ </div>
+ <!-- Navbar end-->
+ </section>
+    <!-- Header 1 Component Start [Rashmi]-->
+
+    <!-- Header 2 Component Start [Rashmi]-->
+    <section class="container-header-2" >
+      <div class="container-sm">
+    <!-- Navbar start-->
+    <nav  class="navbar nav-two fill navbar-expand-lg navbar-light bg-light">
+            
+        <!-- Navbar logo -->
+            <div  id="headerTwo_LogoDiv" onclick="">
+            <img id="headerTwo_SubLogoImage" class="navbar-brand2 img-fluid"  src="./header-2/header-2-images/logo-design-01.png" alt="Image">
+            </div>
+        
+    
+            <!-- Toggle button mobile view start-->
+            <button
+                    class="navbar-toggler navbar-toggler2 toggler-icon-style-h2"
+                    type="button"
+                    data-mdb-toggle="collapse"
+                    data-mdb-target="#headerTwo_ColSpaceDiv"
+                    aria-controls="headerTwo_ColSpaceDiv"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+            >
+                <i class="fas fa-bars"></i>
+            </button>
+           <!-- Toggle button mobile view end-->
+    
+        <!-- left links -->
+            <div class="collapse navbar-collapse navbar-collapse2" id="headerTwo_ColSpaceDiv">    
+            <div class="navbar-nav ms-auto me-3 mb-2 mb-lg-0" id="headerTwo_UnOderList_2">
+                
+        <!-- dropdown link -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link nav-link2 dropdown-toggle-2"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false">
+                <!-- <p class="p-header-2">Template</p> -->
+                <p class="p-header-2 pt-4 pt-lg-0">Templates <i class="fas fa-angle-down"></i>&nbsp;</p>
+              </a>
+              
+            <!-- Dropdown menu -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#"><p class="p-header-2">Action</p></a>
+                </li>
+                <li>
+                  <a class="dropdown-item dropdown-item-h-2" href="#"><p class="p-header-2">Another action</p></a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item dropdown-item-h-2" href="#"><p class="p-header-2">Something else here</p></a>
+                </li>
+              </ul>
+            </li>
+             
+            <!-- <blog> -->
+                <li id="headerTwo_NavLink_2 " class="nav-item" onclick="">
+                  <a id="headerTwo_SubNavLink_2" class="nav-link nav-link2 nav-two-link active " aria-current="page" href="#" ><p class="p-header-2">Blog</p></a>
+                </li>
+    
+            <!-- <pricing> -->
+                <li id="headerTwo_NavLink_3 " class="nav-item" onclick="">
+                  <a id="headerTwo_SubNavLink_3" class="nav-link nav-link2 nav-two-link active" href="#" ><p class="p-header-2">Pricing</p></a>
+                </li>
+    
+                <!-- sign up -->
+                <li>
+                <div class="col-sm-12 d-flex justify-content-center">
+                 <a id="headerTwo_Button_1" href="#" role="button"  class="btn btn-outline-primary signIn-header-2">
+                    Sign Up
+                 </a>
+                </div> 
+               </li>
+    
+            <!-- sign in -->
+                <li >
+                  <div class="col-sm-12 d-flex justify-content-center">
+                        <button id="headerTwo_Button_2" href="#"  type="button" class="btn btn-primary btn-style-h2">
+                        Sign In</button>       
+                  </div>
+                </li>
+    
+            
+            </div>
+          </div>
+        <!-- left links-->
+    
+    </nav>
+    <!-- Navbar end-->
+    </div>
+    </section>
+    <!-- Header 2 Component Start [Rashmi]-->
+
+    <!-- Header 3 Component Start [Rashmi]-->
+    <section class="container-header-3">
+      <div class="container-sm">
+       <!-- Navbar start-->
+        <nav  class="navbar navbar-expand-lg navbar-light bg-light nav-three headerthree-content-edit">
+         
+     <!-- Navbar logo -->
+         <div  id="headerthree_LogoDiv" onclick="">
+         <img id="headerThree_SubLogoImage" class="navbar-brand3 img-fluid"  src="./header-3/header-3-images/logo-design-01.png" alt="Image">
+         </div>
+     
+ 
+         <!-- Toggle button mobile view start-->
+          <span id="headerthree_Button_1"  class=" btn-lg btn-floating icon-style-h3 d-block d-lg-none"
+             ><i class="fas fas-h-1 fa-user-circle"></i>
+         </span>
+         <button
+                 class="navbar-toggler navbar-toggler3 toggler-icon-style-h3"
+                 type="button"
+                 data-mdb-toggle="collapse"
+                 data-mdb-target="#headerthree_ColSpaceDiv"
+                 aria-controls="headerthree_ColSpaceDiv"
+                 aria-expanded="false"
+                 aria-label="Toggle navigation"
+         >
+             <i class="fas fa-bars"></i>
+         </button>
+        <!-- Toggle button mobile view end-->
+ 
+     <!-- left links -->
+         <div class="collapse navbar-collapse navbar-collapse3" id="headerthree_ColSpaceDiv">    
+         <div class="navbar-nav ms-auto me-3 mb-2 mb-lg-0" id="headerthree_UnOderList_3">
+             
+     <!-- dropdown link -->
+         <li class="nav-item dropdown">
+           <a
+             class="nav-link nav-link3 dropdown-toggle-3"
+             href="#"
+             id="navbarDropdown"
+             role="button"
+             data-mdb-toggle="dropdown"
+             aria-expanded="false">
+             <p class="p-header-3 pt-4 pt-lg-0">Templates <i class="fas fa-angle-down"></i>&nbsp;</p>
+               <!-- <p class="p-header-3">Template</p> -->
+           </a>
+           
+         <!-- Dropdown menu -->
+           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+             <li>
+               <a class="dropdown-item" href="#"> <p class="p-header-3">Action</p></a>
+             </li>
+             <li>
+               <a class="dropdown-item" href="#"> <p class="p-header-3">Another action</p></a>
+             </li>
+             <li><hr class="dropdown-divider" /></li>
+             <li>
+               <a class="dropdown-item" href="#"><p class="p-header-3">Something else here</p></a>
+             </li>
+           </ul>
+         </li>
+          
+         <!-- <blog> -->
+             <li id="headerthree_NavLink_2 " class="nav-item " onclick="">
+               <a id="headerthree_SubNavLink_2" class="nav-link nav-link3 nav-three-link active " aria-current="page" href="#" ><p class="p-header-3">Blog</p></a>
+             </li>
+ 
+         <!-- <pricing> -->
+             <li id="headerthree_NavLink_3 " class="nav-item" onclick="">
+               <a id="headerthree_SubNavLink_3" class="nav-link nav-link3 nav-three-link active" href="#" ><p class="p-header-3">Pricing</p></a>
+             </li>
+ 
+         <!-- icon -->
+              <li class="icon-center-h3" onclick="">
+                 <span id="headerthree_Button_1"  class=" btn-lg btn-floating icon-style-h3 ms-lg-3 d-none d-lg-block"
+                     ><i class="fas fas-h-3 fa-user-circle"></i>
+                 </span>
+               </li>
+ 
+           </div>
+         </div>
+        <!-- left links-->
+ 
+        </nav>
+       <!-- Navbar end-->
+      </div>
+    </section>
+    <!-- Header 3 Component Start [Rashmi]-->
+
+    <!-- Hero 1 Component Start [Vansitha]-->
+    <section class="hero-1-section container-sm my-5">
+      <div class="row align-items-center text-center">
+        <div class="col-lg-6 text-sm-center text-lg-start text-md-center">
+          <h1 class="fw-bold">Analysis tools that speak human language</h1>
+          <p class="my-4">
+            Run fast, advanced analysis by seamlessly switching between a
+            cloud-based SQL Editor
+          </p>
+          <div class="hero-1-input-group">
+            <div
+              class="input-group justify-content-center justify-content-lg-start"
+            >
+              <input
+                type="email"
+                class="hero-1-email-input p-2 col-6 ps-3 col-md-5 col-lg-6"
+                placeholder="Enter your e-mail"
+                aria-label="Enter your e-mail"
+              />
+              <button
+                class="btn hero-1-get-started-btn text-justify-center text-capitalize p-2 col-6 col-md-5 col-lg-5"
+                type="button"
+                id="button-addon2"
+                data-mdb-ripple-color="dark"
+              >
+                Get Started
+                <i
+                  class="hero-1-btn-arrow-right fas fa-sm fa-arrow-right arrow ps-2"
+                ></i>
+              </button>
+            </div>
+            <div class="hero-1-invalid-email-txt text-danger">
+              Please provide a valid email address.
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-sm-8 col-lg-6 mx-auto">
+          <img
+            src="./hero-1/hero-1-images/hero-1-img.png"
+            class="hero-image d-block mx-auto img-fluid text-center"
+            alt="Hero Image"
+            width="450"
+            height="450"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Hero 1 Component End [Vansitha] -->
+
+  <!--Hero 2 section starts[Hiruni]-->
+  <section class="hero-2-section container-sm my-5">
+    <div class="row align-items-center text-center">
+        <div class="col-lg-6 text-sm-center text-lg-start text-md-center" >
+            <h1 class="hero-2-h1 my-4 text-black">The Simpler Way to Sell</h1>
+            <div class="mb-5">
+                <h5 class="hero-2-h5">
+                    The Sales CRM that makes your life easy,<br/>
+                    So all you have to do is sell.<br/>
+                    Focus on making deals instead of messing up with your CRM tool.</h5>
+            </div>
+            <div class="mb-3">
+                <a class="hero-2-btn btn btn-lg" href="#" type="button">Request a demo</a>
+            </div> 
+        </div>
+        <div class="col-lg-6 mx-auto">
+            <img src="./hero-2/hero-2-images/hero-2-img.png" class="hero-2-img d-block mx-auto img-fluid text-center" alt="Hero-2 Image"
+            width="450" height="450"/>
+        </div>
+    </div>
+  </section>
+  <!--Hero 2 section Ends[Hiruni]-->
+
+     <!--Hero 3 Component Start [Udeshi]-->
+  <!--Start of container-->
+<section class="hero-3-section container-sm my-5">
+  
+  <div class="row align-items-center text-center hero-3-row hero-3">
+    <div class="col-lg-6 mx-auto image-container-hero-3 order-lg-2 "  >
+      <img
+        src="./hero-3/hero-3-images/hero-3-image.png"
+        class="img-hero-3 d-block mx-auto img-fluid text-center"
+        alt="Hero-3 Image"
+        width="490"
+        height="490"
+        loading="lazy" 
+      />
+    </div>
+    <div class="col-lg-6 text-sm-center text-lg-start text-md-center " >
+      <div class="my-lg-4 header-container-hero-3 " >
+        <h1 class="hero-3-heder ">All-in-one feedback</h1>
+      </div>
+      <div class=" mb-5">
+        <h5 class="hero-3-para"> Prioritise, manage and track your customer feedback with one tool. Collect all data and make smarter decisions in one place.</h5>
+      </div>
+      <div class=" mb-3">
+          <a id="btn-order-hero-3" class="btn  btn-rounded btn-lg" href="#" role="button"
+            >Order Now &nbsp; </a>
+      </div> 
+      
+    </div>
+   
+  </div>
+</section>
+<!-- end of root container -->
+     <!--Hero 3 Component End [Udeshi]-->
+    <!--Feature 1 Component Start [Rashmi]-->
+    <section class="container-feature-1 container-sm my-5" >
+    <div class="text-center">
+      <h2 class="h2-feature-1 text-lg-start text-md-start" >Deliver Faster
+        with Teamy</h2>
+         <!-- <h2 class="h2-feature-1  text-lg-start text-md-start slide-bottom-f1">DELIVER FASTER WITH TEAMY</h2> -->
+
+      <div class="row">
+        <!-- <second column> -->
+        <div class="col-lg-4 col-md-4 order-lg-2 order-md-2 order-sm-1 text-lg-start text-md-start image-container">
+          <img class="img-fluid"  src="feature-1/feature-1-images/feature-1.jpg"/>
+        </div>
+        <!-- <first column> -->
+        <div class="col-lg-8 col-md-8 order-lg-1 order-md-1 order-sm-2   text-lg-start text-md-start" >
+          <h4 class=" h4-feature-1">
+            Work and project management software that lets teams work, collaborate
+            and communicate seamlessly.
+          </h4>
+          <div class="fas-icon-feature-1">
+            <i class="fas fa-fw fa-exchange-alt"></i>
+            <a class="link-feature-1" href="#">Customize your workflow</a>
+            <p class="p-feature-1">
+              Keep track of everything at a glance with high-level, multi-project
+              visibility.
+            </p>
+
+            <i class="fas fa-fw fa-signal"></i>
+            <a class="link-feature-1" href="#">Get Better Visibility</a>
+            <p class="p-feature-1">
+              Empower your teams to work autonomously, without losing sight of
+              what’s happening.
+            </p>
+          </div>
+          <button type="button" class="btn-feature-1 btn-primary">LEARN MORE</button>
+        </div>
+      </div>
+    </div>
+    </section>
+    <!--Feature 1 Component End [Rashmi]-->
+
+    <!--Feature 2 Starts-->
+    <section class="feature-2-section container-sm my-5">
+      <div class="row">
+          <div class="col-lg-4 justify-content-center" >
+              <img class="feature-2-img img-fluid d-block mx-auto" src="./feature-2/feature-2-images/feature-2-img.png" alt="Feature Image" width="450" height="450">
+          </div>
+          <div class="col-lg-8 ps-lg-5 ps-md-5 feature_2_row" >
+              <div class="col-12 ps-lg-4 text-center text-lg-start">
+                  <div class="pb-2">
+                      <h2 class="feature-2-h2">More sales. Less legwork.</h2>
+                  </div>
+                  <div class="mb-1 pb-2">
+                      <h4 class="feature-2-caption pb-1">Get more leads, sort sales in one place and eliminate admin, because your day belongs to you.</h4>
+                  </div>
+                  <div class="row pt-2 pb-2">
+                      <div class="col-lg-6 col-md-6">
+                          <div class="mb-1">
+                              <i class="fas fa-bars feature-2-icons"></i>
+                          </div>
+                          <div class="mb-1">
+                              <h5 class="feature-2-h5">Manage Leads and Deals</h5>
+                          </div>
+                          <div class="mb-1">
+                              <p class="feature-2-p">Get more hot leads fed straight into your sales pipelines around the clock.</p>
+                          </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6">
+                          <div class="mb-1">
+                              <i class="fas fa-solar-panel feature-2-icons"></i>
+                          </div>
+                          <div class="mb-1">
+                              <h5 class="feature-2-h5">Track Communications</h5>
+                          </div>
+                          <div class="mb-1">
+                              <p class="feature-2-p">Track calls, emails and contact history exactly where you need.</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row pt-2 pb-2">
+                      <div class="col-lg-6 col-md-6">
+                          <div class="mb-1">
+                              <i class="fas fa-cog feature-2-icons"></i>
+                          </div>
+                          <div class="mb-1">
+                              <h5 class="feature-2-h5">Automate and Grow</h5>
+                          </div>
+                          <div class="mb-1">
+                              <p class="feature-2-p">Eliminate busywork by automating repetitive administrative tasks.</p>
+                          </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6">
+                          <div class="mb-1">
+                              <i class="far fa-lightbulb feature-2-icons"></i>
+                          </div>
+                          <div class="mb-1">
+                              <h5 class="feature-2-h5">Insights and Reports</h5>
+                          </div>
+                          <div class="mb-1">   
+                              <p class="feature-2-p">Deep dive into metrics customized for your business and measure goals.</p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="pt-2 pb-2">
+                      <a id="feature-2-btn" class="btn btn-primary btn-rounded btn-lg feature-2-btn" href="#" role="button">LEARN MORE &nbsp;<i class="fas fa-sign-in-alt"></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!--Feature 2 Ends-->
+
+    <!--Feature 3 Component Start [Sasindu]-->
+    <section class="container-sm" >
+      <div class="my-5">
+        <div class="row">
+          <div>
+            <h2 class="header">Next Generation Feedback Management</h2>
+          </div>
+
+          <div class="col-md-7 animate__animated animate__fadeInLeft" style="padding-left: 3%; margin-top: 20px">
+            <p class="subHeader">
+              Listen to your supporters and help them achieve greatness with the
+              use of your product. Store your users feedback or distribute it
+              over many services.
+            </p>
+
+            <div style="padding-left: 6%; margin-top: 40px">
+              <ul class="list-unstyled">
+                <li class="mb-1 feature-li">
+                  <i class="far fa-check-circle me-2 text-primary"></i>Public
+                  Ideaboard
+                </li>
+                <li class="mb-1 feature-li">
+                  <i class="far fa-check-circle me-2 text-primary"></i>Emotion
+                  Analysis
+                </li>
+                <li class="mb-1 feature-li">
+                  <i class="far fa-check-circle me-2 text-primary"></i>Automatic
+                  Translation
+                </li>
+                <li class="mb-1 feature-li">
+                  <i class="far fa-check-circle me-2 text-primary"></i>Organize
+                  your feedback
+                </li>
+              </ul>
+            </div>
+            <div class="btn-div">
+              <button type="button" class="btn" id="btn1">Read More</button>
+            </div>
+          </div>
+
+          <div class="col-md-5 animate__animated animate__fadeInRight">
+            <div style="align-items: center; padding-left: 0px">
+              <img
+                src="./feature-3/feature-3-images/image.png"
+                class="img-fluid featureImage"
+                width="500"
+                height="500"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Feature 3 Component End [Sasindu]-->
+
+    <!--Gallery 1 Component Start [Vansitha]-->
+    <div class="container-sm swiper img-slider-1-remove-icon my-5 gallery-1-container">
+      <!--first row-->
+      <div class="row text-lg-start  mb-5">
+        <h2 class="gallery-1-h2 text-center">Forget the rules. If you like it, wear it.</h2>
+        <h4 class="gallery-1-h4 text-center">
+          Elegance is the only kind of beauty that will never fade.
+        </h4>
+      </div>
+      <!--end of first row-->
+      <div class="img-slider-1-slide-content">
+        <div class="card-wrapper swiper-wrapper">
+          <!-- CARDS -->
+          <div class="card swiper-slide img-slider-1-card">
+            <img
+              src="./gallery-1/img-slider-1-images/slider-img-1.png"
+              class="card-img-top img-slider-1-img img-slider-1-effect"
+              alt="Sunset Over the Sea"
+            />
+            <div class="text-center py-3 img-slider-1-text-container">
+              <p class="img-slider-1-item-name mb-1">Midriff Midi Dress</p>
+              <p class="img-slider-1-item-price mb-0">$150.00</p>
+            </div>
+          </div>
+
+          <div class="card swiper-slide img-slider-1-card">
+            <img
+              src="./gallery-1/img-slider-1-images/slider-img-2.png"
+              class="card-img-top img-slider-1-img img-slider-1-effect"
+              alt="Sunset Over the Sea"
+            />
+            <div class="text-center py-3 img-slider-1-text-container">
+              <p class="img-slider-1-item-name mb-1">Short Sleeve Tee</p>
+              <p class="img-slider-1-item-price mb-0">$50.00</p>
+            </div>
+          </div>
+
+          <div class="card swiper-slide img-slider-1-card">
+            <img
+              src="./gallery-1/img-slider-1-images/slider-img-3.png"
+              class="card-img-top img-slider-1-img img-slider-1-effect"
+              alt="Sunset Over the Sea"
+            />
+            <div class="text-center py-3 img-slider-1-text-container">
+              <p class="img-slider-1-item-name mb-1">Blue Jeans</p>
+              <p class="img-slider-1-item-price mb-0">$200.00</p>
+            </div>
+          </div>
+
+          <div class="card swiper-slide img-slider-1-card">
+            <img
+              src="./gallery-1/img-slider-1-images/slider-img-4.png"
+              class="card-img-top img-slider-1-img img-slider-1-effect"
+              alt="Sunset Over the Sea"
+            />
+            <div class="text-center py-3 img-slider-1-text-container">
+              <p class="img-slider-1-item-name mb-1">Tiered Sleeve Dress</p>
+              <p class="img-slider-1-item-price mb-0">$110.00</p>
+            </div>
+          </div>
+          <div class="card swiper-slide img-slider-1-card">
+            <img
+              src="./gallery-1/img-slider-1-images/slider-img-3.png"
+              class="card-img-top img-slider-1-img img-slider-1-effect"
+              alt="Sunset Over the Sea"
+            />
+            <div class="text-center py-3 img-slider-1-text-container">
+              <p class="img-slider-1-item-name mb-1">Blue Jeans</p>
+              <p class="img-slider-1-item-price mb-0">$200.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="swiper-button-next swiper-navBtn img-slider-1-navBtn img-slider-1-next"
+      >
+        <i
+          class="fas fa-2x fa-chevron-right img-slider-1-icon-custom shadow-5-strong"
+        ></i>
+      </div>
+      <div
+        class="swiper-button-prev swiper-navBtn img-slider-1-navBtn img-slider-1-prev"
+      >
+        <i
+          class="fas fa-2x fa-chevron-left img-slider-1-icon-custom shadow-5-strong"
+        ></i>
+      </div>
+    </div>
+    <!--Gallery 1 Component End [Vansitha]-->
+
+    <!--Gallery 2 Component Start [Udeshi]-->
+    <!-- root container -->
+    <section class="container-sm my-5 gallery-2-section">
+      <div class="image-gallery2-container">
+        <!--first row-->
+        <div class="row text-lg-start mt-5 mb-5">
+          <h2 class="gallery-2-h2 text-center">lovely place to work</h2>
+          <h4 class="gallery-2-h4 text-center">
+            Beautifully design by best interior designers for the web designers.
+          </h4>
+        </div>
+        <!--end of first row-->
+
+        <!--start of second row-->
+        <div class="gallery-2-slider-block">
+          <div class="gallery-2-slide-track">
+            <div class="gallery-2-slide">
+              <a class="ripple" href="#!">
+                <img
+                  alt="Los Angeles Skyscrapers"
+                  src="./gallery-2/gallery-2-images/gallery_2_1.png"
+                  width="300"
+                  height="400"
+                  class="gallery-2-responsive gallery-2-img"
+                />
+              </a>
+            </div>
+            <div class="gallery-2-slide">
+              <a class="ripple" href="#!">
+                <img
+                  alt="Los Angeles Skyscrapers"
+                  src="./gallery-2/gallery-2-images/gallery_2_2.png"
+                  width="300"
+                  height="400"
+                  class="gallery-2-responsive gallery-2-img"
+                />
+              </a>
+            </div>
+            <div class="gallery-2-slide">
+              <a class="ripple" href="#!">
+                <img
+                  alt="Los Angeles Skyscrapers"
+                  src="./gallery-2/gallery-2-images/gallery_2_3.png"
+                  width="300"
+                  height="400"
+                  class="gallery-2-responsive gallery-2-img"
+                />
+              </a>
+            </div>
+            <div class="gallery-2-slide">
+              <a class="ripple" href="#!">
+                <img
+                  alt="Los Angeles Skyscrapers"
+                  src="./gallery-2/gallery-2-images/gallery_2_1.png"
+                  width="300"
+                  height="400"
+                  class="gallery-2-responsive gallery-2-img"
+                />
+              </a>
+            </div>
+            <div class="gallery-2-slide">
+              <a class="ripple" href="#!">
+                <img
+                  alt="Los Angeles Skyscrapers"
+                  src="./gallery-2/gallery-2-images/gallery_2_2.png"
+                  width="300"
+                  height="400"
+                  class="gallery-2-responsive gallery-2-img"
+                />
+              </a>
+            </div>
+            <div class="gallery-2-slide">
+              <a class="ripple" href="#!">
+                <img
+                  alt="Los Angeles Skyscrapers"
+                  src="./gallery-2/gallery-2-images/gallery_2_3.png"
+                  width="300"
+                  height="400"
+                  class="gallery-2-responsive gallery-2-img"
+                />
+              </a>
+            </div>
+            <div class="gallery-2-slide">
+              <a class="ripple" href="#!">
+                <img
+                  alt="Los Angeles Skyscrapers"
+                  src="./gallery-2/gallery-2-images/gallery_2_1.png"
+                  width="300"
+                  height="400"
+                  class="gallery-2-responsive gallery-2-img"
+                />
+              </a>
+            </div>
+            <div class="gallery-2-slide">
+              <a class="ripple" href="#!">
+                <img
+                  alt="Los Angeles Skyscrapers"
+                  src="./gallery-2/gallery-2-images/gallery_2_2.png"
+                  width="300"
+                  height="400"
+                  class="gallery-2-responsive gallery-2-img"
+                />
+              </a>
+            </div>
+            <div class="gallery-2-slide">
+              <a class="ripple" href="#!">
+                <img
+                  alt="Los Angeles Skyscrapers"
+                  src="./gallery-2/gallery-2-images/gallery_2_3.png"
+                  width="300"
+                  height="400"
+                  class="gallery-2-responsive gallery-2-img"
+                />
+              </a>
+            </div>
+            <div class="gallery-2-slide">
+              <a class="ripple" href="#!">
+                <img
+                  alt="Los Angeles Skyscrapers"
+                  src="./gallery-2/gallery-2-images/gallery_2_1.png"
+                  width="300"
+                  height="400"
+                  class="gallery-2-responsive gallery-2-img"
+                />
+              </a>
+            </div>
+            <div class="gallery-2-slide">
+              <a class="ripple" href="#!">
+                <img
+                  alt="Los Angeles Skyscrapers"
+                  src="./gallery-2/gallery-2-images/gallery_2_2.png"
+                  width="300"
+                  height="400"
+                  class="gallery-2-responsive gallery-2-img"
+                />
+              </a>
+            </div>
+            <div class="gallery-2-slide">
+              <a class="ripple" href="#!">
+                <img
+                  alt="Los Angeles Skyscrapers"
+                  src="./gallery-2/gallery-2-images/gallery_2_3.png"
+                  width="300"
+                  height="400"
+                  class="gallery-2-responsive gallery-2-img"
+                />
+              </a>
+            </div>
+            <div class="gallery-2-slide">
+              <a class="ripple" href="#!">
+                <img
+                  alt="Los Angeles Skyscrapers"
+                  src="./gallery-2/gallery-2-images/gallery_2_1.png"
+                  width="300"
+                  height="400"
+                  class="gallery-2-responsive gallery-2-img"
+                />
+              </a>
+            </div>
+            <div class="gallery-2-slide">
+              <a class="ripple" href="#!">
+                <img
+                  alt="Los Angeles Skyscrapers"
+                  src="./gallery-2/gallery-2-images/gallery_2_2.png"
+                  width="300"
+                  height="400"
+                  class="gallery-2-responsive gallery-2-img"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--end of second row-->
+      </div>
+    </section>
+    <!-- end of root container -->
+    <!--Gallery 2 Component End [Udeshi]-->
+
+    <!--Gallery 3 Component Start [Rashmi]-->
+    <!-- <desktop view popup img> -->
+    <section class="gallery-3 container-sm d-none d-lg-block my-5">
+      <div class="row">
+        <!-- <column 1> -->
+        <div class="col-lg-4 text-center text-lg-start">
+          <!-- <header> -->
+          <h2 class="h2-gallery-3 mt-lg-5 mb-3">Lovely Place to Work</h2>
+          <!-- <paragraph> -->
+          <p class="p-gallery-3">
+            Beautifully designed by best interior designers for the best web
+            designers. We can combine beautiful, modern designs with clean,
+            functional. And best of all, we are super passionate about our work.
+            Thought does cognitive into follow and rationale annoyed.
+          </p>
+        </div>
+        <!-- popup -->
+        <div class="popup popup-gallery-3">
+          <!-- top bar -->
+          <div class="top-bar">
+            <span class="close-btn close-btn-gallery-3"
+              ><i class="fas fa-times"></i
+            ></span>
+          </div>
+          <img src="" class="large-image large-image-gallery-3" alt="" />
+        </div>
+
+        <!-- <column 2> -->
+        <div class="image-gallery-3 col-lg-4 p-lg-0">
+          <img
+            src="./gallery-3/gallery-3-images/gallery-3-image-1.png"
+            data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Vertical/1.webp"
+            alt="Dark Roast Iced Coffee"
+            class="image w-100 shadow-1-strong rounded"
+          />
+        </div>
+        <!-- <column 3> -->
+        <div class="image-gallery-3 col-lg-4 p-lg-0">
+          <img
+            src="./gallery-3/gallery-3-images/gallery-3-image-2.png"
+            data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Slides/1.webp"
+            alt="Table Full of Spices"
+            class="image w-100 shadow-1-strong rounded"
+          />
+
+          <img
+            src="./gallery-3/gallery-3-images/gallery-3-image-3.png"
+            data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Square/1.webp"
+            alt="Coconut with Strawberries"
+            class="image w-100 shadow-1-strong rounded"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- <mobile view swiper> -->
+    <section class="container-sm d-lg-none text-center my-5">
+      <!-- <header> -->
+      <h2 class="h2-gallery-3 mt-lg-5 mb-3">Lovely Place to Work</h2>
+      <!-- <paragraph> -->
+      <p class="p-gallery-3">
+        Beautifully designed by best interior designers for the best web
+        designers. We can combine beautiful, modern designs with clean,
+        functional. And best of all, we are super passionate about our work.
+        Thought does cognitive into follow and rationale annoyed.
+      </p>
+
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide swiper-slide-gallery-3">
+            <img src="./gallery-3/gallery-3-images/gallery-3-image-1.png" />
+          </div>
+          <div class="swiper-slide swiper-slide-gallery-3">
+            <img src="./gallery-3/gallery-3-images/gallery-3-image-2.png" />
+          </div>
+          <div class="swiper-slide swiper-slide-gallery-3">
+            <img src="./gallery-3/gallery-3-images/gallery-3-image-3.png" />
+          </div>
+        </div>
+        <!-- pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!--Gallery 3 Component End [Rashmi]-->
+
+    <!--Testimonial 2 Component Start [Hiruni]-->
+    <div class="testimonial-2-body">
+      <section class="testimonial-2 container-sm my-5">
+        <div class="row align-items-center text-center">
+          <div class="col-sm text-center">
+            <h2 class="testimonial-2-h2-1">TESTIMONIALS</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm text-center">
+            <h2 class="testimonial-2-h2-2">What our clients say about us.</h2>
+          </div>
+        </div>
+        <div class="testimonial-2-slide-container swiper">
+          <div class="testimonial-2-slide-content">
+            <div class="card-wrapper swiper-wrapper">
+              <div class="card swiper-slide testimonial-2-card">
+                <div class="testimonial-2-image-content">
+                  <div class="testimonial-2-card-image">
+                    <img
+                      src="./testimonial-2/testimonial-2-images/testimonial-2-img-1.jpg"
+                      alt="Profile 1"
+                      class="testimonial-2-card-img"
+                    />
+                  </div>
+                </div>
+                <div class="testimonial-2-card-content">
+                  <p class="testimonial-2-name">James Pattinson</p>
+                  <ul
+                    class="list-unstyled d-flex justify-content-center text-warning mb-0"
+                  >
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i
+                        class="fas fa-star-half-alt fa-sm testimonial-2-star"
+                      ></i>
+                    </li>
+                  </ul>
+                  <p class="testimonial-2-description">
+                    “Vestibulum, cum nam non amet consectetur morbi aenean
+                    condimentum eget. Ultricies integer nunc neque accumsan
+                    laoreet. Viverra nibh ultrices.”
+                  </p>
+                </div>
+              </div>
+              <div class="card swiper-slide testimonial-2-card">
+                <div class="testimonial-2-image-content">
+                  <div class="testimonial-2-card-image">
+                    <img
+                      src="./testimonial-2/testimonial-2-images/testimonial-2-img-2.jpg"
+                      alt="Profile 2"
+                      class="testimonial-2-card-img"
+                    />
+                  </div>
+                </div>
+                <div class="testimonial-2-card-content">
+                  <p class="testimonial-2-name">Greg Stuart</p>
+                  <ul
+                    class="list-unstyled d-flex justify-content-center text-warning mb-0"
+                  >
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i
+                        class="fas fa-star-half-alt fa-sm testimonial-2-star"
+                      ></i>
+                    </li>
+                  </ul>
+                  <p class="testimonial-2-description">
+                    “Vestibulum, cum nam non amet consectetur morbi aenean
+                    condimentum eget. Ultricies integer nunc neque accumsan
+                    laoreet. Viverra nibh ultrices.”
+                  </p>
+                </div>
+              </div>
+              <div class="card swiper-slide testimonial-2-card">
+                <div class="testimonial-2-image-content">
+                  <div class="testimonial-2-card-image">
+                    <img
+                      src="./testimonial-2/testimonial-2-images/testimonial-2-img-3.jpg"
+                      alt="Profile 3"
+                      class="testimonial-2-card-img"
+                    />
+                  </div>
+                </div>
+                <div class="testimonial-2-card-content">
+                  <p class="testimonial-2-name">Trevor Mitchell</p>
+                  <ul
+                    class="list-unstyled d-flex justify-content-center text-warning mb-0"
+                  >
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i
+                        class="fas fa-star-half-alt fa-sm testimonial-2-star"
+                      ></i>
+                    </li>
+                  </ul>
+                  <p class="testimonial-2-description">
+                    “Vestibulum, cum nam non amet consectetur morbi aenean
+                    condimentum eget. Ultricies integer nunc neque accumsan
+                    laoreet. Viverra nibh ultrices.”
+                  </p>
+                </div>
+              </div>
+              <div class="card swiper-slide testimonial-2-card">
+                <div class="testimonial-2-image-content">
+                  <div class="testimonial-2-card-image">
+                    <img
+                      src="./testimonial-2/testimonial-2-images/testimonial-2-img-4.jpg"
+                      alt="Profile 4"
+                      class="testimonial-2-card-img"
+                    />
+                  </div>
+                </div>
+                <div class="testimonial-2-card-content">
+                  <p class="testimonial-2-name">David Webster</p>
+                  <ul
+                    class="list-unstyled d-flex justify-content-center text-warning mb-0"
+                  >
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i
+                        class="fas fa-star-half-alt fa-sm testimonial-2-star"
+                      ></i>
+                    </li>
+                  </ul>
+                  <p class="testimonial-2-description">
+                    “Vestibulum, cum nam non amet consectetur morbi aenean
+                    condimentum eget. Ultricies integer nunc neque accumsan
+                    laoreet. Viverra nibh ultrices.”
+                  </p>
+                </div>
+              </div>
+              <div class="card swiper-slide testimonial-2-card">
+                <div class="testimonial-2-image-content">
+                  <div class="testimonial-2-card-image">
+                    <img
+                      src="./testimonial-2/testimonial-2-images/testimonial-2-img-5.jpg"
+                      alt="Profile 5"
+                      class="testimonial-2-card-img"
+                    />
+                  </div>
+                </div>
+                <div class="testimonial-2-card-content">
+                  <p class="testimonial-2-name">Anne Williamson</p>
+                  <ul
+                    class="list-unstyled d-flex justify-content-center text-warning mb-0"
+                  >
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i
+                        class="fas fa-star-half-alt fa-sm testimonial-2-star"
+                      ></i>
+                    </li>
+                  </ul>
+                  <p class="testimonial-2-description">
+                    “Vestibulum, cum nam non amet consectetur morbi aenean
+                    condimentum eget. Ultricies integer nunc neque accumsan
+                    laoreet. Viverra nibh ultrices.”
+                  </p>
+                </div>
+              </div>
+              <div class="card swiper-slide testimonial-2-card">
+                <div class="testimonial-2-image-content">
+                  <div class="testimonial-2-card-image">
+                    <img
+                      src="./testimonial-2/testimonial-2-images/testimonial-2-img-6.jpg"
+                      alt="Profile 6"
+                      class="testimonial-2-card-img"
+                    />
+                  </div>
+                </div>
+                <div class="testimonial-2-card-content">
+                  <p class="testimonial-2-name">Johanas Copper</p>
+                  <ul
+                    class="list-unstyled d-flex justify-content-center text-warning mb-0"
+                  >
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i
+                        class="fas fa-star-half-alt fa-sm testimonial-2-star"
+                      ></i>
+                    </li>
+                  </ul>
+                  <p class="testimonial-2-description">
+                    “Vestibulum, cum nam non amet consectetur morbi aenean
+                    condimentum eget. Ultricies integer nunc neque accumsan
+                    laoreet. Viverra nibh ultrices.”
+                  </p>
+                </div>
+              </div>
+              <div class="card swiper-slide testimonial-2-card">
+                <div class="testimonial-2-image-content">
+                  <div class="testimonial-2-card-image">
+                    <img
+                      src="./testimonial-2/testimonial-2-images/testimonial-2-img-7.jpg"
+                      alt="Profile 7"
+                      class="testimonial-2-card-img"
+                    />
+                  </div>
+                </div>
+                <div class="testimonial-2-card-content">
+                  <p class="testimonial-2-name">Azar Ashwin</p>
+                  <ul
+                    class="list-unstyled d-flex justify-content-center text-warning mb-0"
+                  >
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i
+                        class="fas fa-star-half-alt fa-sm testimonial-2-star"
+                      ></i>
+                    </li>
+                  </ul>
+                  <p class="testimonial-2-description">
+                    “Vestibulum, cum nam non amet consectetur morbi aenean
+                    condimentum eget. Ultricies integer nunc neque accumsan
+                    laoreet. Viverra nibh ultrices.”
+                  </p>
+                </div>
+              </div>
+              <div class="card swiper-slide testimonial-2-card">
+                <div class="testimonial-2-image-content">
+                  <div class="testimonial-2-card-image">
+                    <img
+                      src="./testimonial-2/testimonial-2-images/testimonial-2-img-8.jpg"
+                      alt="Profile 8"
+                      class="testimonial-2-card-img"
+                    />
+                  </div>
+                </div>
+                <div class="testimonial-2-card-content">
+                  <p class="testimonial-2-name">Hailey Stafer</p>
+                  <ul
+                    class="list-unstyled d-flex justify-content-center text-warning mb-0"
+                  >
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i
+                        class="fas fa-star-half-alt fa-sm testimonial-2-star"
+                      ></i>
+                    </li>
+                  </ul>
+                  <p class="testimonial-2-description">
+                    “Vestibulum, cum nam non amet consectetur morbi aenean
+                    condimentum eget. Ultricies integer nunc neque accumsan
+                    laoreet. Viverra nibh ultrices.”
+                  </p>
+                </div>
+              </div>
+              <div
+                class="card swiper-slide testimonial-2-card"
+                style="border-color: #ff7a00"
+              >
+                <div class="testimonial-2-image-content">
+                  <div class="testimonial-2-card-image">
+                    <img
+                      src="./testimonial-2/testimonial-2-images/testimonial-2-img-9.jpg"
+                      alt="Profile 9"
+                      class="testimonial-2-card-img"
+                    />
+                  </div>
+                </div>
+                <div class="testimonial-2-card-content">
+                  <p class="testimonial-2-name">James Codwin</p>
+                  <ul
+                    class="list-unstyled d-flex justify-content-center text-warning mb-0"
+                  >
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i class="fas fa-star fa-sm testimonial-2-star"></i>
+                    </li>
+                    <li>
+                      <i
+                        class="fas fa-star-half-alt fa-sm testimonial-2-star"
+                      ></i>
+                    </li>
+                  </ul>
+                  <p class="testimonial-2-description">
+                    “Vestibulum, cum nam non amet consectetur morbi aenean
+                    condimentum eget. Ultricies integer nunc neque accumsan
+                    laoreet. Viverra nibh ultrices.”
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="swiper-button-next testimonial-2-swiper-navBtn testimonial-2-next"
+          ></div>
+          <div
+            class="swiper-button-prev testimonial-2-swiper-navBtn testimonial-2-prev"
+          ></div>
+        </div>
+        <div class="row">
+          <div class="col-sm text-center">
+            <!--changed mb-md-0 to mb-md-4 -->
+            <button type="button" class="btn testimonial-2-btn">
+              Get A Quote
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!--Testimonial 2 Component End [Hiruni]-->
+     <!-- Testimonial 1 Component Start [Sasindu]-->
+    <section class="testamonial my-5">
+      <div class="container-sm my-5">
+          <div class="mainHeader">
+            <h2>Here is what our Clients are saying About us</h2>
+          </div>
+          <br />
+          <div class="swiper mySwiper1 swipercard" id="swiper">
+            <div class="swiper-wrapper swiperwrapper" id="wrapper">
+              <div class="swiper-slide swiperslide">
+                <div class="row">
+                  <!--Slide body-->
+                  <div
+                    class="col-md-3 column-small"
+                    style="display: flex; justify-content: center"
+                  >
+                    <img
+                      src="./testimonial-1/testamonial-1-images/profile1.jpg"
+                      alt=""
+                      class="client-img"
+                    />
+                  </div>
+                  <div class="col-md-9 column-large">
+                    <h2 class="name">Hannah Schmitt</h2>
+                    <p class="review">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Cursus nibh mauris, nec turpis orci lectus maecenas.
+                      Suspendisse sed magna eget nibh in turpis. Consequat duis
+                      diam lacus arcu. Faucibus venenatis felis id augue sit
+                      cursus pellentesque enim Lorem ipsum dolor sit amet,
+                      consectetur adipiscing elit. Cursus nibh mauris, nec
+                      turpis orci lectus maecenas. Suspendisse
+                    </p>
+                    <p class="date" style="padding-left: 2%; margin-top: 10px">
+                      CEO & Founder @ CloudX Technologies
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiperslide">
+                <div class="row">
+                  <!--Slide body-->
+                  <div
+                    class="col-md-3 column-small"
+                    style="display: flex; justify-content: center"
+                  >
+                    <img
+                      src="./testimonial-1/testamonial-1-images/profile2.jpg"
+                      alt=""
+                      class="client-img"
+                    />
+                  </div>
+                  <div class="col-md-9 column-large">
+                    <h2 class="name">Hannah Schmitt</h2>
+                    <p class="review">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Cursus nibh mauris, nec turpis orci lectus maecenas.
+                      Suspendisse sed magna eget nibh in turpis. Consequat duis
+                      diam lacus arcu. Faucibus venenatis felis id augue sit
+                      cursus pellentesque enim Lorem ipsum dolor sit amet,
+                      consectetur adipiscing elit. Cursus nibh mauris, nec
+                      turpis orci lectus maecenas. Suspendisse
+                    </p>
+                    <p class="date" style="padding-left: 2%; margin-top: 10px">
+                      CEO & Founder @ CloudX Technologies
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiperslide">
+                <div class="row">
+                  <!--Slide body-->
+                  <div
+                    class="col-md-3 column-small"
+                    style="display: flex; justify-content: center"
+                  >
+                    <img
+                      src="./testimonial-1/testamonial-1-images/profile3.jpg"
+                      alt=""
+                      class="client-img"
+                    />
+                  </div>
+                  <div class="col-md-9 column-large">
+                    <h2 class="name">Hannah Schmitt</h2>
+                    <p class="review">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Cursus nibh mauris, nec turpis orci lectus maecenas.
+                      Suspendisse sed magna eget nibh in turpis. Consequat duis
+                      diam lacus arcu. Faucibus venenatis felis id augue sit
+                      cursus pellentesque enim Lorem ipsum dolor sit amet,
+                      consectetur adipiscing elit. Cursus nibh mauris, nec
+                      turpis orci lectus maecenas. Suspendisse
+                    </p>
+                    <p class="date" style="padding-left: 2%; margin-top: 10px">
+                      CEO & Founder @ CloudX Technologies
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiperslide">
+                <div class="row">
+                  <!--Slide body-->
+                  <div
+                    class="col-md-3 column-small"
+                    style="display: flex; justify-content: center"
+                  >
+                    <img
+                      src="./testimonial-1/testamonial-1-images/profile4.jpg"
+                      alt=""
+                      class="client-img"
+                    />
+                  </div>
+                  <div class="col-md-9 column-large">
+                    <h2 class="name">Hannah Schmitt</h2>
+                    <p class="review">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Cursus nibh mauris, nec turpis orci lectus maecenas.
+                      Suspendisse sed magna eget nibh in turpis. Consequat duis
+                      diam lacus arcu. Faucibus venenatis felis id augue sit
+                      cursus pellentesque enim Lorem ipsum dolor sit amet,
+                      consectetur adipiscing elit. Cursus nibh mauris, nec
+                      turpis orci lectus maecenas. Suspendisse
+                    </p>
+                    <p class="date" style="padding-left: 2%; margin-top: 10px">
+                      CEO & Founder @ CloudX Technologies
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiperslide">
+                <div class="row">
+                  <!--Slide body-->
+                  <div
+                    class="col-md-3 column-small"
+                    style="display: flex; justify-content: center"
+                  >
+                    <img
+                      src="./testimonial-1/testamonial-1-images/profile5.jpg"
+                      alt=""
+                      class="client-img"
+                    />
+                  </div>
+                  <div class="col-md-9 column-large">
+                    <h2 class="name">Hannah Schmitt</h2>
+                    <p class="review">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Cursus nibh mauris, nec turpis orci lectus maecenas.
+                      Suspendisse sed magna eget nibh in turpis. Consequat duis
+                      diam lacus arcu. Faucibus venenatis felis id augue sit
+                      cursus pellentesque enim Lorem ipsum dolor sit amet,
+                      consectetur adipiscing elit. Cursus nibh mauris, nec
+                      turpis orci lectus maecenas. Suspendisse
+                    </p>
+                    <p class="date" style="padding-left: 2%; margin-top: 10px">
+                      CEO & Founder @ CloudX Technologies
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="nav1">
+              <div class="swiper-button-next testamonial-next" id="next"></div>
+              <div class="swiper-button-prev testamonial-prev" id="prev"></div>
+            </div>
+
+            <div class="nav-desktop">
+              <div class="swiper-pagination testamonial-pagination"></div>
+              <div class="swiper-button-next testamonial-next" id="next"></div>
+              <div class="swiper-button-prev testamonial-prev" id="prev"></div>
+            </div>
+          </div>
+        
+      </div>
+    </section>
+    <!--Testimonial 1 Component End [Sasindu] -->
+    
+
+     <!-- Testimonial 3 Component Start [Sasindu]-->
+    <section class="testamonial-3 my-5">
+      <div class="container-sm  testamonial-3-my-5"> 
+        <div class="container-sm">
+          <div class="my-5" style="position: relative;">
+          <div class="testamonial-3-Header"><h2>Here is what our Clients say About us</h2></div> <br>
+            <div class="swiper mySwiper3 testamonial-3-swipercard" id="testamonial-3-swiper">
+              <div class="swiper-wrapper testamonial-3-swiperwrapper">
+                  <div class="swiper-slide testamonial-3-swiperslide">
+                    <div class="row">
+                      <div class="user-img">
+                            <img src="./testimonial-3/testimonial-3-images/profile1.jpg" class="student-image">
+                          </div>
+                          <div class="user-text">
+                            <p class="tes-3-review">"Lorem ipsum dolor sit amet, 
+                              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                              Duis aute irure dolor”
+                            </p>
+                            <p class="name-date"><b class="bolt-name">- Hannah Schmitt,&nbsp;</b> Manager at NirvanaClouds</p>
+                            <p class="name-date-mobile"><b class="bolt-name">Hannah Schmitt,&nbsp;</b><br> Manager at NirvanaClouds</p>
+                      </div>
+                    </div>      
+                  </div>
+
+                  <div class="swiper-slide testamonial-3-swiperslide">
+                    <div class="row">
+                      <div class="user-img">
+                            <img src="./testimonial-3/testimonial-3-images/profile2.jpg" class="student-image">
+                          </div>
+                          <div class="user-text">
+                            <p class="tes-3-review">"Lorem ipsum dolor sit amet, 
+                              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                              Duis aute irure dolor”
+                            </p>
+                            <p class="name-date"><b class="bolt-name">- Hannah Schmitt,&nbsp;</b> Manager at NirvanaClouds</p>
+                            <p class="name-date-mobile"><b class="bolt-name">Hannah Schmitt,&nbsp;</b><br> Manager at NirvanaClouds</p>
+                      </div>
+                    </div>      
+                  </div>
+
+                  <div class="swiper-slide testamonial-3-swiperslide">
+                    <div class="row">
+                      <div class="user-img">
+                            <img src="./testimonial-3/testimonial-3-images/profile3.jpg" class="student-image">
+                          </div>
+                          <div class="user-text">
+                            <p class="tes-3-review">"Lorem ipsum dolor sit amet, 
+                              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                              Duis aute irure dolor”
+                            </p>
+                            <p class="name-date"><b class="bolt-name">- Hannah Schmitt,&nbsp;</b> Manager at NirvanaClouds</p>
+                            <p class="name-date-mobile"><b class="bolt-name">Hannah Schmitt,&nbsp;</b><br> Manager at NirvanaClouds</p>
+                      </div>
+                    </div>     
+                  </div>
+
+                  <div class="swiper-slide testamonial-3-swiperslide">
+                    <div class="row">
+                      <div class="user-img">
+                            <img src="./testimonial-3/testimonial-3-images/profile4.jpg" class="student-image">
+                          </div>
+                          <div class="user-text">
+                            <p class="tes-3-review">"Lorem ipsum dolor sit amet, 
+                              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                              Duis aute irure dolor”
+                            </p>
+                            <p class="name-date"><b class="bolt-name">- Hannah Schmitt,&nbsp;</b> Manager at NirvanaClouds</p>
+                            <p class="name-date-mobile"><b class="bolt-name">Hannah Schmitt,&nbsp;</b><br> Manager at NirvanaClouds</p>
+                      </div>
+                    </div>      
+                  </div>
+
+                </div>
+              
+            </div> 
+            <!--for desktop-->
+            <div class="testamonial-3-nav-desktop" >
+                <div class="swiper-button-next testamonial-3-next" id="testamonial-3-next"></div>
+                <div class="swiper-button-prev testamonial-3-prev" id="testamonial-3-prev"></div>
+            </div>
+          
+      </div>  
+    </section>
+  <!-- Testimonial 3 Component End [Sasindu]-->
+
+    <!--Footer 1 Component Start [Sasindu] -->
+ <!--    Form Start    -->
+        <section class=" container-bankcard-4 my-5 d-flex bg-light gradient-custom justify-content-center" >
+            <!-- Footer -->
+                <footer class="container-sm text-center text-lg-start  text-muted footer-1-section" style="width: 100%;">
+                <!-- Section: Social media -->
+                <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                    <!-- Left -->
+                    <div class=" d-lg-block footer-1-header" style="display: block;">
+                        <a href="" class="me-4 text-reset">
+                            <i class="footer-1-twiter fab fa-twitter fa-3x"></i>
+                        </a>
+                    
+                    <!-- Left -->
+
+                        <!-- Right -->
+                        <div class="footer-1-category-desktop">
+                            <a href="#" class="a-tag-footer-1"><span class="footer-1-span me-4 span1">Home </span></a>
+                            
+                            <a href="#" class="a-tag-footer-1"><span class="footer-1-span me-4 span1">Experience </span></a>
+
+                            <a href="#" class="a-tag-footer-1"><span class="footer-1-span me-4 span1">About Us </span></a>
+
+                            <a href="#" class="a-tag-footer-1"><span class="footer-1-span me-4 span1">Contact </span></a>
+
+                            <a href="#" class="a-tag-footer-1"><span class="footer-1-span me-4 span1">Jobs </span></a>
+                        </div>
+
+                        <div class="footer-1-category-mobile">
+                            <a href="#" class="a-tag-footer-1"><div class="paddig1"><span class="footer-1-span me-4 span1">Home </span></div></a>
+                            
+                            <a href="#" class="a-tag-footer-1"><div class="paddig1"><span class="footer-1-span me-4 span1">Experience </span></div></a>
+
+                            <a href="#" class="a-tag-footer-1"><div class="paddig1"><span class="footer-1-span me-4 span1">About Us </span></div></a>
+
+                            <a href="#" class="a-tag-footer-1"><div class="paddig1"><span class="footer-1-span me-4 span1">Contact </span></div></a>
+
+                            <a href="#" class="a-tag-footer-1"><div class="paddig1"><span class="footer-1-span me-4 span1">Jobs </span></div></a>
+                        </div>
+                    </div>
+                    <!-- Right -->
+                </section>
+
+                <!-- Section: Social media -->
+                <div class="footer-1-social-icon-div">
+                        <span class="footer-1-copyright">© 2022 ABC. All rights reserved</span>
+                    
+
+                    <div class="footer-1-icons" >
+                        <a href="" class="me-4 text-reset footer-1-icon-hover">
+                            <i class="footer-1-social-icons fab fa-facebook-f fa-lg"></i>
+                        </a>
+                        <a href="" class="me-4 text-reset footer-1-icon-hover">
+                            <i class="footer-1-social-icons fab fa-instagram fa-lg"></i>
+                        </a>
+                        <a href="" class="me-4 text-reset footer-1-icon-hover">
+                            <i class="footer-1-social-icons fab fa-linkedin fa-lg"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Section: Links  -->
+                <section class="">
+                    
+                        
+                    </div>
+                </section>
+                <!-- Section: Links  -->
+
+                
+                <!-- Copyright -->
+                </footer>
+                <!-- Footer -->
+        </section>
+    <!-- Form End -->
+    <!--Footer 1 Component End [Sasindu] -->
+
+    <!--Footer 2 Component Start [Sasindu] -->
+<section id="footerID" class=" my-5 bg-light text-white text-center text-lg-start">
+        <div class="container-sm">
+        <!-- Grid container -->
+        <div class=" p-4">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-8 col-md-12 mb-4 mb-md-0">
+              <a href="" class="me-4 text-reset">
+                <i class="footer-1-twiter fab fa-twitter fa-3x"></i>
+              </a>
+      
+              <p id="discriptionId" class="text-dark">
+                We're a team of experienced designers and developers. 
+                We can combine beautiful, modern designs with clean, 
+                functional and high-performance code to produce stunning websites.
+              </p>
+
+              <ul class="list-inline" id="socialmedia"> 
+                <li class="list-inline-item footer-list-2"><a class="text-para text-dark" href="#"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+                <li class="list-inline-item footer-list-2" ><a class="text-para text-dark" href="#"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+                <li class="list-inline-item footer-list-2"><a class="text-para text-dark" href="#"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a></li>
+              </ul>
+              
+
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div id="linkListId"  class="col-lg-2 col-md-6 mb-4 mb-md-0" >
+              <h5 id="nameId" class="text-uppercase text-dark">Product</h5>
+      
+              <ul id="listID" class="list-unstyled mb-0">
+                <li class="footer-list-2">
+                  <a id="list1" href="#!" class="">Data Governance</a>
+                </li>
+                <li class="footer-list-2">
+                  <a id="list2" href="#!" class="">Virtual Events</a>
+                </li>
+                <li class="footer-list-2">
+                  <a id="list3" href="#!" class="">Virtual Users</a>
+                </li>
+                <li class="footer-list-2">
+                  <a id="list4" href="#!" class="">Connect</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div id="linkListId"  class="col-lg-2 col-md-6 mb-4 mb-md-0" >
+              <h5 id="nameId" class="text-uppercase text-dark">Explore</h5>
+      
+              <ul id="listID" class="list-unstyled mb-0">
+                <li class="footer-list-2">
+                  <a id="list1" href="#!" class="">Resources</a>
+                </li>
+                <li class="footer-list-2">
+                  <a id="list2" href="#!" class="">Blog</a>
+                </li>
+                <li class="footer-list-2">
+                  <a id="list3" href="#!" class="">Documents</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <hr width="100%" style="background-color: rgba(0, 0, 0, 0.4)";>    
+          <!--Grid row-->
+        </div>
+
+        <!-- Copyright -->
+        
+    <div class="text-black-50" id="copyright" >
+      <span class="footer-1-copyright">© 2022 ABC. All rights reserved</span>
+    </div>
+    <!-- Copyright -->
+    </div>
+  </section>
+    
+    <!--Footer 2 Component End [Sasindu] -->
+
+    <!--Footer 3 Component Start [Udeshi] -->
+        <!-- root container -->
+    <section class="container-sm my-5 footer-3-section">
+      <!-- Footer -->
+    <footer class="bg-light text-center text-black">
+      <!-- Grid container -->
+      <div class="container p-4 ">
+        <!-- Section: Social media -->
+        <section class="mb-4 ">
+          <div class="container align-items-center footer-3icons">
+          <!-- Facebook -->
+          <a href="">
+          <i class="fab fa-facebook-f fa-lg px-2 icon-footer-3"></i>
+          </a>
+    
+          <!-- Linkedin -->
+          <a href="">
+          <i class="fab fa-linkedin-in fa-lg px-2 icon-footer-3"></i>
+          </a>
+          <!-- Youtube -->
+          <a href="">
+          <i class="fab fa-youtube fa-lg px-2 icon-footer-3"></i>
+          </a>
+    
+          <!-- Instagram -->
+          <a href="">
+          <i class="fab fa-instagram fa-lg px-2 icon-footer-3"></i>
+          </a>
+          <!-- Whatsapp -->
+          <a href="">
+          <i class="fab fa-whatsapp fa-lg px-2 icon-footer-3"></i>
+          </a>
+    
+          <!-- Twitter -->
+          <a href="">
+          <i class="fab fa-twitter fa-lg px-2 icon-footer-3"></i>
+          </a>
+    
+          <!-- Pinterest -->
+          <a href="">
+          <i class="fab fa-pinterest fa-lg px-2 icon-footer-3"></i>
+          </a>
+    
+          </div>
+        </section>
+        <!-- Section: Social media -->
+    
+        <!-- Section: Form -->
+        <section class="">
+          <form action="" class="needs-validation footer-3-validation" novalidate>
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+              <!--Grid column-->
+              <div class="col-auto">
+                <p class="pt-2 text-black-30 footer-3-text">
+                  Subscribe for Newsletters
+                </p>
+              </div>
+              <!--Grid column-->
+    
+              <!--Grid column-->
+              <div class="col-md-5 col-12 footer-3-input">
+                <!-- Email input -->
+                <div class=" mb-4 " >
+                  <input type="email" id="email-footer-3" class="form-control form-control-lg" placeholder=" Email Address"  required/>
+                  <div class="invalid-feedback">Please Enter an Email Address.</div>
+                </div> 
+              </div>
+              <!--Grid column-->
+    
+              <!--Grid column-->
+              <div class="col-auto my-0">
+                <!-- Submit button -->
+                <button type="submit" class="btn btn  mb-4 rounded-5 text-capitalize text-white footer-3-button">
+                  Subscribe Now
+                </button>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </form>
+        </section>
+        <!-- Section: Form -->
+    
+    
+      </div>
+      <!-- Grid container -->
+      <hr>
+      <!-- Copyright -->
+      <div class="text-center pt-0 pb-3 bg-light footer-3-text">
+        © 2022 ABC. All Rights Reserved.
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    </section>
+    <!-- end of root container -->
+    <!--Footer 3 Component End [Udeshi] -->
+
+   
+    <!-- Framework Scripts [MDB, Swiper JS] -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!--Custom Scripts -->
+    <script src="./hero-1/hero-1-main.js"></script>
+    <script src="./gallery-1/img-slider-1-main.js"></script>
+    <script src="./gallery-3/gallery-3-popup.js"></script>
+    <script src="./gallery-3/gallery-3-swiper.js"></script>
+    <script src="./testimonial-2/testimonial-2-js/testimonial-2-main.js"></script>
+    <script src="./testimonial-1/testimotional-1-js/main.js"></script>
+    <script src="./testimonial-3/testimonial-3-js/main3.js"></script>
+    <script src="./footer-3/footer-3-script.js"></script>
+    <script src="./header-1/header-1.js"></script>
+    <script src="./header-2/header-2.js"></script>
+    <script src="./header-3/header-3.js"></script>
+
+   
+  </body>
+</html>

@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "GilroyExtraBold";
+    src: url("fonts/Gilroy-ExtraBold.otf");
+}
+.container-header-2 {
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    padding: 0% !important;
+}
+.nav-two {
+    box-shadow: none !important;
+    background-color: #ffffff !important;
+    position: relative;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+nav.fill ul li a {
+  transition: all 2s;
+}
+.p-header-2{
+    color: #000000;
+    padding-right: 2rem !important;
+    transition: transform 0.5s;
+    padding-bottom: 0% !important;
+    margin-bottom: 0% !important;
+}
+.p-header-2:hover{
+    transform: scale(1.05);
+}
+/* .nav-two li {
+    list-style: none !important;
+} */
+.dropdown-toggle-2:after {
+    display: none !important;
+}
+
+/* Image upload CSS */
+.navbar-brand2 {
+    width: 100px;
+    height: 45px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.navbar-brand2:hover{  
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+.signIn-header-2{
+    border-radius: 3rem !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    margin-right: 2rem !important;
+}.btn-style-h2 {
+    border-radius: 3rem !important;
+    text-align: center !important;
+    background-color: #212D63;
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+    padding-left: 43px !important;
+    padding-right: 43px !important;
+}
+.signIn-header-2:hover{
+    background-color: #333131;
+    color: #ffffff;
+    border-color: #333131;
+}
+.toggler-icon-style-h2{
+    font-size: 2.1rem !important;
+    text-align: center !important;
+    color: #6e6c6c !important;
+}
+
+@media(max-width:991px){
+.signIn-header-2{
+    margin-top: 10px !important;
+    align-items: center !important;
+    margin-right: 0rem !important;
+}
+.btn-style-h2 {
+    margin-top: 20px !important;
+    padding-top: 10px !important;
+}
+.p-header-2{
+     margin-bottom: 0% !important;
+}
+.p-header-2:hover{
+    transform: scale(1);
+    color:#d41212 !important;
+}
+.nav-two{
+    padding-bottom: 12px;
+        padding-top: 12px;
+    }
+}
+
+

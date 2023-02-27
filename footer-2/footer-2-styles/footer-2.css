@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+#logoId{
+    color:rgba(33.00000183284283, 45.00000111758709, 99.00000169873238,1)!important;
+    /* font-family: 'Gilroy SemiBold', sans-serif !important; */
+    letter-spacing:0;
+}
+#footerID{
+    background-color: aquamarine;
+}
+#discriptionId{
+    color:#0A142F;
+    font-family: 'Poppins', sans-serif !important;
+    letter-spacing:0;
+    margin-top: 10px;
+}
+#smicons{
+    font-size: 10px;
+    margin-top: -40px;
+    margin-left: 60px;
+    position: absolute;
+    color:#263238!important;
+}
+.list-unstyled{
+    margin-top: 25px;
+}
+.footer-1-twiter{
+    color: #212D63;
+}
+
+
+#copyright{
+    padding-bottom: 50px;
+    padding-top: 0;
+}
+
+#nameId{
+    color:#0A142F!important;
+    /* font-family: 'Gilroy SemiBold', sans-serif !important; */
+}
+#list1{
+	color:rgba(9.544791430234909, 19.757982194423676, 46.75000101327896, 1)!important;
+	opacity:0.5;
+    font-family: 'Poppins', sans-serif !important;
+}
+#list2{
+	color:rgba(9.544791430234909, 19.757982194423676, 46.75000101327896, 1)!important;
+	opacity:0.5;
+    font-family: 'Poppins', sans-serif !important;
+	
+}
+#list3{
+	color:rgba(9.544791430234909, 19.757982194423676, 46.75000101327896, 1)!important;
+	opacity:0.5;
+    font-family: 'Poppins', sans-serif !important;
+}
+#list4{
+	color:rgba(9.544791430234909, 19.757982194423676, 46.75000101327896, 1)!important;
+	opacity:0.5;
+    font-family: 'Poppins', sans-serif !important;
+	
+}
+
+#exploreId{
+    color:rgba(9.544791430234909, 19.757982194423676, 46.75000101327896, 1)!important;
+    /* font-family: 'Gilroy SemiBold', sans-serif !important; */
+}
+#limlId1 { 
+	color:rgba(9.544791430234909, 19.757982194423676, 46.75000101327896, 1)!important;
+	opacity:0.5;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+#limlId2 { 
+	color:rgba(9.544791430234909, 19.757982194423676, 46.75000101327896, 1)!important;
+	opacity:0.5;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+#limlId3 { 
+	color:rgba(9.544791430234909, 19.757982194423676, 46.75000101327896, 1)!important;
+	opacity:0.5;
+    font-family: 'Poppins', sans-serif !important;
+}
+.footer-list-2{
+    padding: 5px;
+}
+
+.footer-list-2:hover{
+    color: #0d2799;
+    text-shadow:2px 2px 8px #212d6365;
+}
+
+@media screen and (max-width:1200px) {
+    .p-3{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    .p-3{
+        text-align: center;
+    }
+}
+@media screen and (max-width:2000px) {
+    .p-3{
+        text-align: center;
+    }
+}
+#copyright{
+    text-align: center;
+}
+.text-para{
+    color: #263238;
+}

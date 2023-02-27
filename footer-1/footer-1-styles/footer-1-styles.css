@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: "GilroyExtraBold";
+    src: url("../../fonts/Gilroy-ExtraBold.otf"); /* Replace with font location on local system */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.footer-1-twiter{
+    color: #212D63;
+}
+.footer-1-social-icons{
+    color: #212D63;
+}
+.footer-1-span{
+    font-family: 'Poppins', sans-serif;
+}
+.a-tag-footer-1{
+    color: #212D63;
+}
+
+.footer-1-social-icon-div{
+    display: block; 
+    padding: 25px;
+}
+.footer-1-copyright{
+    color: #212D63;
+}
+.footer-1-icon-hover:hover{
+    color: #212d63ad;
+    text-shadow:2px 2px 8px #212d6365;
+}
+
+@media all and (min-width: 991px) {
+   .footer-1-icons{
+    float: right;
+   }
+   .footer-1-header{
+    width: 100%;
+   }
+   .footer-1-category-desktop{
+    float: right;
+   }
+   .footer-1-section{
+    height: auto;
+   }
+   .footer-1-icons{
+    padding-bottom: 10px;
+   }
+   .footer-1-span:hover{
+    color: #0d2799;
+    text-shadow:2px 2px 8px #212d6365;
+    }
+    .footer-1-category-mobile{
+        display: none;
+    }
+}
+@media all and (max-width: 991px) {
+   .footer-1-category-desktop{
+    margin-top: 10px;
+   }
+    .footer-1-social-icons{
+    padding-top: 20px;
+   }
+   .span1{
+    font-size: 16px;
+   }
+}
+@media (min-width:455px) and (max-width:990px) {
+    .footer-1-category-mobile{
+            display: none;
+        }
+}
+
+@media all and (max-width: 454px) {
+    .footer-1-category-mobile{
+    margin-top: 10px;
+    }
+   /* .footer-1-span{
+    padding: 100px;
+   } */
+   .footer-1-section{
+    height: auto;
+   }
+   .footer-1-icons{
+    padding-bottom: 10x;
+   }
+   .paddig1{
+    margin-top: 15px;
+   }
+   .footer-1-category-desktop{
+    display: none;
+   }
+}
+
+

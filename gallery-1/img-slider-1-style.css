@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    --img-slider-1-primary-text-color: #000000;
+    --img-slider-1-secondary-text-color: #212429;
+}
+
+.img-slider-1-slide-content{
+    margin: 0 1.8rem;
+    overflow: hidden;
+}
+
+.img-slider-1-item-name {
+    color: var(--img-slider-1-primary-text-color);
+    font-weight: 400;
+
+}
+.gallery-1-container{
+    background-color: white;
+}
+.img-slider-1-item-price {
+    color: var(--img-slider-1-secondary-text-color);
+    font-weight: bold;
+}
+
+/* Required for swiper js */
+.swiper {
+    width: 100%;
+}
+
+.img-slider-1-card {
+    min-width: fit-content;
+    border: none;
+    box-shadow: none;
+}
+.gallery-1-h2{
+    color: #6265ba;
+    text-transform: capitalize;
+}
+.gallery-1-h4{
+    color: #9ca3a3;
+}
+@media all and (min-width: 320px){
+    .img-slider-1-img {
+        margin: 0 auto;
+    }    
+}
+
+.img-slider-1-img {
+    border-radius: 40px;
+    max-height: 330px;
+    max-width: fit-content;
+}
+
+/* Image responsive as in design */
+@media all and (min-width: 425px) {
+    .img-slider-1-img {
+        border-radius: 40px;
+        object-fit: contain;
+    }
+}
+
+@media all and (min-width: 375px) {
+    .img-slider-1-img {
+        border-radius: 40px;
+        object-fit: contain;
+    }
+}
+
+@media all and (min-width: 320px) {
+    .img-slider-1-img {
+        border-radius: 40px;
+        object-fit: contain;
+    }
+}
+
+.img-slider-1-effect {
+    cursor: pointer;
+    transition: opacity 300ms ease-in-out;
+}
+
+.img-slider-1-effect:hover {
+    opacity: 0.7;
+}
+
+/* Disable highlighting the image on scrolling through */
+.img-slider-1-card {
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/*Removing default next and prev icons from swiper js*/
+.img-slider-1-remove-icon [class^="swiper-button-"]::after{
+    content: "";
+}
+
+.img-slider-1-navBtn {
+    height: fit-content;
+    width: fit-content;
+    border-radius: 50%;
+}
+
+.img-slider-1-navBtn:active {
+    outline: none;
+    border: none;
+}
+
+.img-slider-1-icon-custom {
+    font-size: 1.4rem;
+    color: #000000;
+    background-color: white;
+    padding: 1rem 1rem;
+    border-radius: 50%;
+}

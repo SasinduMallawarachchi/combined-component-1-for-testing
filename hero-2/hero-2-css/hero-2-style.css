@@ -1,0 +1,23 @@
+.hero-2-h5 {
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 1.7;
+}
+
+.hero-2-section{
+  background-color: white;
+}
+@media all and (max-width: 767px) {
+  .hero-2-h5 {
+      color: rgba(0, 0, 0, 0.6);
+      line-height: 1.5;
+  }
+}
+.hero-2-btn {
+  background: #212D63;
+  text-transform: unset !important;
+  border-radius: 15px;
+  color: #FFFFFF !important;
+}
+.hero-2-btn:hover {
+  background: #394eac;
+}
